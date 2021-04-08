@@ -1,0 +1,779 @@
+*{
+    box-sizing: border-box;
+} 
+.imgs{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.container_fluid{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    height:50px;
+}
+
+.back-head{
+    background-color: #FFE3CF;
+}
+
+.text-main-inf{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    font-size: 48px; 
+    margin-bottom: 50px;
+}
+
+.text-main-contact{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    color:white;
+    width: 340px; 
+    font-size: 32px; 
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.logo{
+    margin-top: 5px;
+    max-height: 64px;
+    max-width: 66px;
+}
+
+.line{
+    margin: 0 auto; 
+    width: 665px; 
+    height: 3px; 
+    background-color:grey; 
+    margin-bottom:38px;
+    margin-top:38px;
+}
+
+#checkbox {
+    display: none;
+}
+
+#checkbox:checked ~ nav ul {
+    max-height: 200px;
+    padding: 15px 0;
+    transition: all 0.5s;
+}
+
+.text-logo{
+    display: inline-block;
+    font-family: Roboto-Bold;
+    color: #FC6445;
+    font-size: 20px;
+    margin-top:25px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+nav {
+    position: relative;
+    top: -10px;
+    background-color: transparent;
+}
+
+nav ul {
+    max-height: 70px;
+    padding: 15px 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-flex;
+    padding-left: 20px;
+}
+
+.md{
+    display: none;
+}
+
+.text-nav{
+    display: block;
+    font-family: Roboto-Bold;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 22px 28px;
+    text-decoration: none;
+    color:#FC6445 !important;
+}
+
+.presentation{
+    height: 800px;
+    width: 100%;
+    background-color: #FFE3CF;
+    margin-bottom: 81px;
+}
+
+.text-presentation{
+    font-family: Roboto-Bold;
+    width: 850px;
+    font-weight: bold;
+    color:black;;
+    margin: 0 auto;
+    font-size: 48px; 
+    margin-bottom: 30px;
+}
+
+.container-logo-presentation{
+    height: 139px;
+    width: 139px;
+    margin: 0 auto;
+    margin-top: 160px;  
+}
+
+.logo-presentation{
+    max-height: 139px;
+    max-width: 139px;
+}
+
+.container-text-presentation{
+    height: auto;
+    width: 950px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-inf{
+    font-family: Roboto-Medium;
+    font-size: 26px; 
+    width: 950px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.text-main{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    color:black;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.text-application{
+    font-size: 48px;
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    color:black;
+    width: auto;
+} 
+
+.button-presentation{
+    border-radius: 1000px;
+    border: solid 1px;
+    background-color: #A53627;
+    width: 270px;
+    height: 52px;
+    text-align: center;
+}
+
+.text-button{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    color:#FFFFFF;
+    font-size: 24px;
+
+}
+
+.title{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.container-1{
+    height: 849px;
+    width: 1100px;
+    background-color: rgba(127, 226, 255, 0.2);
+    margin: 0 auto;
+    margin-bottom: 81px;
+}
+
+.block{
+    width: 226px;
+    height: 201px;
+    margin: 0 auto;
+    margin-top: 82px;
+}
+
+.block-2{
+    width: 226px;
+    height: 201px;
+    margin: 0 auto;
+    margin-top: 82px;
+}
+
+.container-text-block{
+    width: 700px;
+    height: auto;
+    margin-top: 95px;
+    margin-left:55px;
+}
+
+.text-title-cont{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    color:black;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.text-cont{
+    font-family: Roboto-Medium;
+    color:black;
+    font-size: 18px;
+    width: 460px;
+}
+
+.text-block{
+    font-family: Roboto-Medium;
+    color:black;
+    font-size: 20px;
+}
+
+.cont{
+    width: auto;
+    height: 250px;
+}
+
+.text-medium{
+    font-family: Roboto-Medium;
+    color:black;
+    font-size: 20px;
+}
+
+.text-service{
+    font-family: Roboto-Medium;
+    color:black;
+    font-size: 20px;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.back-cards{
+    position: relative;
+    height: 730px;
+    width: 460px;
+    margin: 0 auto;
+    background-color:rgba(252, 100, 69, 0.2);
+    z-index: 2;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+
+.front-cards{
+    width: 460px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 47px;
+    z-index: 1;
+    margin-bottom: 18px;
+}
+
+.name{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    color:black;
+    font-size: 26px;
+    margin-bottom: 38px;
+}
+
+.description{
+    font-family: Roboto-Medium;
+    color:black;
+    font-size: 20px;
+}
+
+.services{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 131px;
+}
+
+.container-services{
+    max-width: 222px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 74px;
+}
+.container-card{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 81px;
+}
+.name-services{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    color:black;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.application{
+    max-width: 698px;
+    height: 701px;
+    background-color:rgba(252, 172, 111, 0.3);
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+.content-application{
+    height: auto;
+    width: 557px;
+    margin:0 auto;
+    margin-top: 95px;   
+}
+
+.input{
+    width: 555px;
+    height: 67px;
+    margin-bottom: 56px;
+}
+
+.button-application{
+    width: 156px;
+    height: 48px;
+    background-color:#FC6445;
+    border: solid 0px;
+}
+
+.contact{
+    width: auto;
+    height: auto;
+    margin-bottom: 103px;
+}
+
+.map{
+    width: 50%;
+    height: 460px;
+}
+
+.text-contact{
+    width: 50%;
+    height: 460px;
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-footer{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    color:black;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#slider {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+#slider input[type=radio] {
+    display: none;
+}
+#slider button {
+    cursor:pointer;
+    text-decoration: none;
+}
+#slides {
+    padding: 10px;
+    background: #fff;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+}
+ #overflow {
+    width: 100%;
+    overflow: hidden;
+ }
+ #slide1:checked ~ #slides .inner {
+    margin-left: 0;
+ }
+ #slide2:checked ~ #slides .inner {
+    margin-left: -100%;
+ }
+ #slide3:checked ~ #slides .inner {
+    margin-left: -200%;
+ }
+ #slide4:checked ~ #slides .inner {
+    margin-left: -300%;
+ }
+ #slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    height: auto;
+ }
+ #slides .slide {
+    width: 25%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+ }
+ #controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+ }
+ #controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+ }
+ #controls label:hover {
+    opacity: 1;
+ }
+ #slide1:checked ~ #controls label:nth-child(2),
+ #slide2:checked ~ #controls label:nth-child(3),
+ #slide3:checked ~ #controls label:nth-child(4),
+ #slide4:checked ~ #controls label:nth-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float:right;
+    margin: 0 -50px 0 0;
+    display: block;
+ }
+ #slide1:checked ~ #controls label:nth-last-child(2),
+ #slide2:checked ~ #controls label:nth-last-child(3),
+ #slide3:checked ~ #controls label:nth-last-child(4),
+ #slide4:checked ~ #controls label:nth-last-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+    float:left;
+    margin: 0 0 0 -50px;
+    display: block;
+ }
+ #bullets {
+    margin: 150px 0 0;
+    text-align: center;
+ }
+ #bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    background: #ccc;
+    margin: 0 10px;
+ }
+ #slide1:checked ~ #bullets label:nth-child(1),
+ #slide2:checked ~ #bullets label:nth-child(2),
+ #slide3:checked ~ #bullets label:nth-child(3),
+ #slide4:checked ~ #bullets label:nth-child(4) {
+    background: #444;
+ }
+ @media  screen and (max-width: 900px) {
+    #slide1:checked ~ #controls label:nth-child(2),
+    #slide2:checked ~ #controls label:nth-child(3),
+    #slide3:checked ~ #controls label:nth-child(4),
+    #slide4:checked ~ #controls label:nth-child(1),
+    #slide1:checked ~ #controls label:nth-last-child(2),
+    #slide2:checked ~ #controls label:nth-last-child(3),
+    #slide3:checked ~ #controls label:nth-last-child(4),
+    #slide4:checked ~ #controls label:nth-last-child(1) {
+       margin: 0;
+    }
+    #slides {
+       max-width: calc(100% - 140px);
+       margin: 0 auto;
+    }
+ }
+@media only screen and (max-width:1200px){
+    .text-nav{
+        padding: 22px 12px;
+    }
+    .block{
+        width: 182px;
+        height: 182px;
+        margin: 0 auto;
+        margin-top: 82px;
+    }
+    .container-text-block{
+        width: 500px;
+        margin-top: 85px;
+        margin-left:55px;
+    }
+    .text-cont{
+        font-size: 16px;
+    }
+    .block-2{
+        width: 182px;
+        height: 182px;
+    }
+    
+}
+
+@media only screen and (max-width:992px){
+    .card-2{
+        display: none;
+    }
+    .card-3{
+        display: none;
+    }
+    .card-4{
+        display: none;
+    }
+    .text-presentation{
+        width: 700px;
+        font-size: 36px; 
+    }
+    .text-nav{
+        padding: 22px 0;
+    }
+    .container-text-presentation{
+        width: auto;
+    }
+    .text-inf{
+        font-family: Roboto-Medium;
+        font-size: 24px;
+        width: 740px; 
+    }
+    .right{
+        float: none;
+    }
+    .left{
+        float: none;
+    }
+    .container-1 {
+        height: 679px;
+    }
+    .block{
+        width: 148px;
+        height: 148px;
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+    .container-text-block{
+        width: 410px;
+        margin-top: 13px;
+        margin-left:55px;
+    }
+    .text-title-cont{
+        font-size: 18px;
+    }
+    .block-2{
+        width: 182px;
+        height: 182px;
+    }
+    .input{
+        width: 405px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .xxl{
+        display: none;
+    }
+    .md{
+        display: block;
+    }
+    .text-logo{
+        margin-left: 20px;
+    }
+    .menu-wrap {
+        display: flex;
+        justify-content: space-between;
+        float: right;
+    }
+    .menu-icon {
+        font-size: 2.4em;
+        color: #A53627;
+        line-height: 50px;
+        display: block;
+        padding-top: 10px;
+    }
+    nav {
+        position: absolute;
+        background-color: #A53627;
+        top:70px;
+        left:0;
+        width: 100%;
+    }
+    nav ul {
+        list-style-type: none;
+        max-height: 0px;
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+    nav ul li {
+        display: block;
+        padding-left: 20px;
+    }
+    nav ul li {
+        padding: 0 15px;
+    }
+    nav ul li a {
+        display: inline-block;
+        padding: 12px;
+        color: #DAE1E7;
+        text-decoration: none;
+        letter-spacing: 0.05em;
+    }
+    nav ul li a:hover, nav ul li a:focus {
+        color: #e6f4ab;
+    }
+    .text-nav{
+        font-size: 16px;
+        padding: 12px 0px;
+        color: white !important;
+        text-align: center;
+    }
+    .text-presentation{
+        width: 500px;
+        font-size: 24px; 
+    }
+    .line{
+        width: 100%;  
+    }
+    .text-inf{
+        font-family: Roboto-Medium;
+        font-size: 20px;
+        width: 500px; 
+    }
+    .container-1 {
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .cont{
+        height: auto;
+    }
+    .block{
+        width: 178px;
+        height: 178px;
+        margin-top: 32px;
+    }
+    .container-text-block{
+        width: 410px;
+        margin-top: 13px;
+        margin-left:60px;
+        margin: 0 auto;
+    }
+    .text-title-cont{
+        font-size: 20px;
+    }
+    .text-cont{
+        font-size: 18px;
+        width: auto; 
+    }
+    .block-2{
+        width: 178px;
+        height: 178px;
+    }
+    .content-application{
+        width: 505px;  
+    }
+    .text-application{
+        font-size: 36px;
+    } 
+    .input{
+        width: 455px;
+    }
+    .map{
+        width: 100%;
+    }
+    .text-contact{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:576px){
+    #slides {
+        max-width: calc(100% - 10px);
+        margin: 0 auto;
+     }
+    .back-cards{
+        height: 600px;
+        width: 310px;
+        margin-bottom: 28px;
+    } 
+    .front-cards{
+        width: 300px;
+        height: 340px;
+    }
+    .name{
+        font-family: Roboto-Bold;
+        font-weight: bold;
+        color:black;
+        font-size: 26px;
+        margin-bottom: 38px;
+    }
+    
+    .description{
+        font-family: Roboto-Medium;
+        color:black;
+        font-size: 20px;
+    }
+   .logo{
+        display: none;
+   }
+   .text-presentation{
+        width: 300px;
+        font-size: 24px; 
+    }
+    .button-presentation{
+        width: 230px;
+    }
+    .text-main-inf{
+        font-size: 28px;
+    }
+    .text-inf{
+        font-size: 16px;
+        width: 300px; 
+    }
+    .container-text-block{
+        width: 210px;
+        margin-top: 13px;
+    }
+    .input{
+        width: 285px;
+    }
+    .content-application{
+        width: auto;
+    }
+    .text-application{
+        font-size: 28px;
+        font-family: Roboto-Bold;
+        font-weight: bold;
+        color:black;
+        width: auto;
+    }
+    .text-main{
+        font-size: 24px;
+        width: auto;
+    }
+    .text-main-contact{
+        font-size: 28px;
+        width: 320px;
+    }
+    .text-footer{
+        font-size: 16px;
+    }
+}

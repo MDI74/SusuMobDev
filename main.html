@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width = device-width">
+    <title>SusuMobDev</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+    <link rel ="stylesheet" href ="css/style.css">
+    <style>
+        @font-face {
+        font-family: Roboto-Bold; 
+        src: url(fonts/Roboto-Bold.ttf)
+        }
+        @font-face {
+        font-family: Roboto-Medium; 
+        src: url(fonts/Roboto-Light.ttf)
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div class="container_fluid">
+       <div class="back-head">
+            <header class="header row">
+                <div class = "col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+                <div class="col-0 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+                    <img class= "logo" src="images/logo.jpg" alt="">
+                </div>
+                <div class="col-3 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                    <p class="text-logo">SusuMobDev</p>
+                </div>
+                <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+                <div class = "col-8 col-sm-8 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+                    <div class="menu-wrap">
+                        <input type="checkbox" id="checkbox">
+                        <nav>
+                            <ul>
+                                <li><a  class ="text-nav" href="#SusuDevMob">Главная</a></li>
+                                <li><a class ="text-nav" href="#serv">Услуги</a></li>
+                                <li><a class ="text-nav" href="#portf">Портфолио</a></li>
+                                <li><a class ="text-nav" href="#con">Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <label for="checkbox">
+                            <i class="fa fa-bars menu-icon"></i>
+                        </label>
+                    </div>
+                </div>
+            </header>
+            <div class="line" style=" width: 100%; height: 5px; background-color:#A53627"></div>
+            <div class="presentation row ">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div class="container-logo-presentation" >
+                         <img  class = "logo-presentation" src="images/logo.jpg" alt="">
+                    </div>
+                    <div class="container-text-presentation">
+                        <p class="text-main">SusuMobDev</p>
+                        <p class="text-presentation">Разработка Мобильных приложений и Комплексных IT систем</p>
+                        <button id="myScroll" class = "button-presentation text-button">заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class = "title">
+            <p class= "text-main-inf">Нас выбирают</p>
+            <p class ="text-inf">Мы делаем мобильные приложения, которые помогают вашему бизнесу достигать стоящих перед ним целей</p>
+        </section>
+        <div class="row">
+            <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+            <section class = "container-1 col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                <div class ="cont row">
+                    <div class = "col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+                    <div class = "col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                        <div class = "block"> 
+                            <img class= "imgs" src="images/bayk.png" alt="">
+                        </div>
+                    </div>
+                    <div class = "col-12 col-sm-12  col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+                        <div class="container-text-block">
+                            <p class="text-title-cont">ОАО Байканур</p>
+                            <p class="text-cont">Геодезическая линия трансформирует монтаж. Не факт, что график функции стабилизирует целевой трафик. Исходя из структуры пирамиды Маслоу, выразительное сжимает гамма-квант, невзирая на действия конкурентов.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="xxl">
+                <div class ="cont row">
+                        <div class = "col-sm-0 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+                        <div class = "col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+                            <div class="container-text-block" style="margin-left: 0px;">
+                                <p class="text-title-cont">ЗАО Сбербанк</p>
+                                <p class="text-cont">Геодезическая линия трансформирует монтаж. Не факт, что график функции стабилизирует целевой трафик. Исходя из структуры пирамиды Маслоу, выразительное сжимает гамма-квант, невзирая на действия конкурентов.</p>
+                            </div>
+                        </div>
+                        <div class = "col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class = "block" style="position: absolute; left:59%;">
+                                <img class= "imgs" src="images/sber.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md">
+                    <div class ="cont row">
+                            <div class = "col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+                            <div class = "col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                                <div class = "block"><img class= "imgs" src="images/sber.png" alt=""> </div>
+                            </div>
+                            <div class = "col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+                                <div class="container-text-block" >
+                                    <p class="text-title-cont">ЗАО Сбербанк</p>
+                                    <p class="text-cont">Геодезическая линия трансформирует монтаж. Не факт, что график функции стабилизирует целевой трафик. Исходя из структуры пирамиды Маслоу, выразительное сжимает гамма-квант, невзирая на действия конкурентов.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class ="cont row">
+                    <div class = "col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+                    <div class = "col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                        <div class = "block"> 
+                            <img class= "imgs" src="images/susu.png" alt="">
+                        </div>
+                    </div>
+                    <div class = "col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+                        <div class="container-text-block">
+                            <p class="text-title-cont">ЮУРГУ</p>
+                            <p class="text-cont">Пушкин подарил Гоголю фабулу "Мертвых душ" не потому, что бессознательное интуитивно трансформирует экспрессионизм. Типическое создает ультрафиолетовый символизм.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+        </div>
+        <div class="line"></div> 
+        <p class="text-inf"> Весь процесс работы может отслеживаться нашими клиентами, и мы готовы сразу же корректировать разрабатываемый продукт</p>
+        <div class="line"></div>
+        <p id="portf" class= "text-main-inf">Портфолио</p> 
+        <div class ="col-12">
+        <div id="slider">
+                <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <div id="slides">
+                    <div id="overflow">
+                        <div class="inner">
+                            <div class="slide slide_1">
+                                <div class="slide-content">
+                                    <section class="container-card">
+                                        <div class="row">
+                                            <div class ="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                                <div class= "card-1">
+                                                <div class="back-cards right">
+                                                    <div class="row">
+                                                        <div class = "front-cards col-12">
+                                                            <img class= "imgs" src="images/port.png" alt="">
+                                                        </div>
+                                                        <div class= "name col-12">Название</div>
+                                                        <div class="description">Один из признанных классиков маркетинга Ф.Котлер определяет</div>
+                                                    </div>
+                                                </div>  
+                                                </div>
+                                            </div>
+                                            <div class ="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                                <div class= "card-2">
+                                                    <div class="back-cards left">
+                                                        <div class="row">
+                                                            <div class = "front-cards col-12">
+                                                                <img class= "imgs" src="images/port.png" alt="">
+                                                            </div>
+                                                            <div class= "name col-12">Название</div>
+                                                            <div class="description">Один из признанных классиков маркетинга Ф.Котлер определяет</div>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class ="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                                <div class= "card-3">
+                                                    <div class="back-cards right">
+                                                        <div class="row">
+                                                            <div class = "front-cards col-12">
+                                                                <img class= "imgs" src="images/port.png" alt="">
+                                                            </div>
+                                                            <div class= "name col-12">Название</div>
+                                                            <div class="description">Один из признанных классиков маркетинга Ф.Котлер определяет</div>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class ="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                                <div class= "card-4">
+                                                    <div class="back-cards left">
+                                                        <div class="row">
+                                                            <div class = "front-cards col-12">
+                                                                <img class= "imgs" src="images/port.png" alt="">
+                                                            </div>
+                                                            <div class= "name col-12">Название</div>
+                                                            <div class="description">Один из признанных классиков маркетинга Ф.Котлер определяет</div>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <section class="container-card">
+                                    <div class="row">
+                                        <div class ="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                            <div class= "card-1">
+                                            <div class="back-cards right">
+                                                <div class="row">
+                                                    <div class = "front-cards col-12">
+                                                        <img class= "imgs" src="images/port.png" alt="">
+                                                    </div>
+                                                    <div class= "name col-12">Название</div>
+                                                    <div class="description">Один из признанных классиков маркетинга Ф.Котлер определяет</div>
+                                                </div>
+                                            </div>  
+                                            </div>
+                                        </div>
+                                        <div class ="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                            <div class= "card-2">
+                                                <div class="back-cards left">
+                                                    <div class="row">
+                                                        <div class = "front-cards col-12">
+                                                            <img class= "imgs" src="images/port.png" alt="">
+                                                        </div>
+                                                        <div class= "name col-12">Название</div>
+                                                        <div class="description">Один из признанных классиков маркетинга Ф.Котлер определяет</div>
+                                                    </div>  
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class ="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                            <div class= "card-3">
+                                                <div class="back-cards right">
+                                                    <div class="row">
+                                                        <div class = "front-cards col-12">
+                                                            <img class= "imgs" src="images/port.png" alt="">
+                                                        </div>
+                                                        <div class= "name col-12">Название</div>
+                                                        <div class="description">Один из признанных классиков маркетинга Ф.Котлер определяет</div>
+                                                    </div>  
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class ="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                            <div class= "card-4">
+                                                <div class="back-cards left">
+                                                    <div class="row">
+                                                        <div class = "front-cards col-12">
+                                                            <img class= "imgs" src="images/port.png" alt="">
+                                                        </div>
+                                                        <div class= "name col-12">Название</div>
+                                                        <div class="description">Один из признанных классиков маркетинга Ф.Котлер определяет</div>
+                                                    </div>  
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+       <div id="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+        </div>
+        <div id="bullets">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+        </div>
+        <section class = "title">
+            <p id="serv" class= "text-main-inf">Услуги</p>
+            <p class ="text-inf">Не доказано, что воображение определяет медиавес даже в случае сильных локальных возмущений среды.</p>
+        </section>
+        <section class = "services">
+            <div class="row">
+                <div class= "container_services col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4"> 
+                    <div class = "block-2">
+                        <img class= "imgs" src="images/icn1.png" alt="">
+                    </div>
+                    <p class= "name-services">Название</p>
+                    <p class = "text-service">Ассортиментная политика предприятия, по данным астрономических наблюдений, традиционно искажает анализ рыночных цен.</p>
+                </div>
+                <div class= "container_services col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4"> 
+                    <div class = "block-2">
+                        <img class= "imgs" src="images/icn2.png" alt="">
+                    </div>
+                    <p class= "name-services">Название</p>
+                    <p class = "text-service">Ассортиментная политика предприятия, по данным астрономических наблюдений, традиционно искажает анализ рыночных цен.</p>
+                </div>
+                <div class= "container_services col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4"> 
+                    <div class = "block-2">
+                        <img class= "imgs" src="images/icn3.png" alt="">
+                    </div>
+                    <p class= "name-services">Название</p>
+                    <p class = "text-service">Ассортиментная политика предприятия, по данным астрономических наблюдений, традиционно искажает анализ рыночных цен.</p>
+                </div>
+                <div class= "container_services col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4"> 
+                    <div class = "block-2">
+                        <img class= "imgs" src="images/icn4.png" alt="">
+                    </div>
+                    <p class= "name-services">Название</p>
+                    <p class = "text-service">Ассортиментная политика предприятия, по данным астрономических наблюдений, традиционно искажает анализ рыночных цен.</p>
+                </div>
+                <div class= "container_services col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4"> 
+                    <div class = "block-2">
+                        <img class= "imgs" src="images/icn5.png" alt="">
+                    </div>
+                    <p class= "name-services">Название</p>
+                    <p class = "text-service">Ассортиментная политика предприятия, по данным астрономических наблюдений, традиционно искажает анализ рыночных цен.</p>
+                </div>
+                <div class= "container_services col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4"> 
+                    <div class = "block-2">
+                        <img class= "imgs" src="images/icn6.png" alt="">
+                    </div>
+                    <p class= "name-services">Название</p>
+                    <p class = "text-service">Ассортиментная политика предприятия, по данным астрономических наблюдений, традиционно искажает анализ рыночных цен.</p>
+                </div>
+            </div>
+        </section>
+        <div class = "row">
+            <div class = "col-sm-0 col-md-2 col-lg-2 col-xl-3 col-xxl-3"></div>
+            <div class = "application col-sm-12 col-md-8 col-lg-8 col-xl-6 col-xxl-6">
+                <div id="order" class= "content-application"> 
+                    <p class="text-application">Оставьте заявку</p>
+                    <p class ="text-main" style="font-size: 24px; margin-bottom: 77px;">и мы с Вами свяжемся</p>
+                    <input class="input" placeholder="Как к вам обращаться?" >
+                    <input class="input" placeholder="Email/телефон"><br></br>
+                    <button class = "button-application text-button">ОК</button>
+                </div>
+            </div>
+            <div class = "col-sm-0 col-md-2 col-lg-2 col-xl-3 col-xxl-3"></div>
+        </div>
+        <div id="con" class ="contact">
+            <div class="row">
+                <div class="map col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3e1eaab7af7dfbe6cfddafc9bcdca1600e61bac4a20d1615b4ec64cb5fecf850&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+                <div class="text-contact col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <p class="text-main-contact">ПР-Т ЛЕНИНА, Д.80  +7 (351) 558-45-32 proski@centr.ru Каждый день: с 9:00 до 20:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="line" style=" width: 100%; height: 5px;margin-bottom: 30px; background-color:#A53627"></div>
+    </div>
+        <footer class = "footer rows">
+            <p class="text-footer col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">© 2020-2021 Все права защищены</p>
+        </footer>
+    </div> 
+    <script>
+        $("#myScroll").click(function() { 
+            $('html, body').animate({
+                scrollTop: $(".application").offset().top  
+            }, 500); 
+        });
+    </script> 
+</body>
+</html>
